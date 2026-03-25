@@ -12,7 +12,7 @@ export class NootaTrigger implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'Noota Trigger',
     name: 'nootaTrigger',
-    icon:'file:noota.svg',
+    icon: 'file:noota.svg',
     group: ['trigger'],
     version: 1,
     description: 'Triggers when a Noota recording is completed',
