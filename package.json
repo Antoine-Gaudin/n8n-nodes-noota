@@ -5,7 +5,7 @@
   "license": "MIT",
   "homepage": "https://noota.readme.io/reference/welcome",
   "keywords": ["n8n-community-node-package"],
-  "author": { "name": "", "email": "" },
+  "author": { "name": "Antoine Gaudin", "email": "agaudin76@gmail.com" },
   "repository": {
     "type": "git",
     "url": "https://github.com/<...>/n8n-nodes-noota.git"

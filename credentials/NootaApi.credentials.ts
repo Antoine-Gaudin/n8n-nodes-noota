@@ -9,6 +9,11 @@ export class NootaApi implements ICredentialType {
   name = 'nootaApi';
   displayName = 'Noota API';
   documentationUrl = 'https://noota.readme.io/reference/auth';
+  
+  // Icon inherits from the node using this credential
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  icon = 'file:../nodes/Noota/noota.svg' as any;
+
 
   properties: INodeProperties[] = [
     {

@@ -16,7 +16,7 @@ const recordingOperations: INodeProperties[] = [
       {
         name: 'Get Many',
         value: 'getAll',
-        action: 'Get all recordings',
+        action: 'Get many recordings',
         description: 'Retrieve a list of recordings',
         routing: {
           request: { method: 'GET', url: '/api/v1/record' },

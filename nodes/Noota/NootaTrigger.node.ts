@@ -7,6 +7,8 @@ import {
 } from 'n8n-workflow';
 
 export class NootaTrigger implements INodeType {
+  usableAsTool = true;
+
   description: INodeTypeDescription = {
     displayName: 'Noota Trigger',
     name: 'nootaTrigger',
@@ -54,6 +56,7 @@ export class NootaTrigger implements INodeType {
         description: 'The event to listen for',
       },
     ],
+		usableAsTool: true,
   };
 
   async webhook(this: IWebhookFunctions): Promise<IWebhookResponseData> {
